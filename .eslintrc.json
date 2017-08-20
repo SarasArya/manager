@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+      "require-jsdoc": ["off"],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/prefer-stateless-function": 0,
+      "react/prop-types": 0,
+      "import/prefer-default-export": 0,
+      "arrow-body-style":0
+    }
+}
